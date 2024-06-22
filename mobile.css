@@ -1,0 +1,150 @@
+@media(max-width:450px){
+
+    header{
+       
+        height: fit-content;
+        align-items: center;
+        gap: 100px;
+        background-repeat: no-repeat;
+        
+       
+        
+        
+    }
+    
+    header h3{
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    
+    header span{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+      
+        
+    }
+    
+    header nav{
+       padding: 20px;
+
+    }
+    
+    header nav a{
+        font-size: 14px;
+    }
+
+    nav .hide{
+        display: none;
+    }
+    
+
+    #trending-movies h1{
+        font-size: 40px;
+       
+    }
+    
+    #trending-movies article{
+        width: 100%;
+        gap: 30px;
+    }
+    
+    .top{
+        gap: 30px;
+    
+    }
+    
+    .top img{
+        width: 100px;
+        height: 80px;
+    }
+    
+    .buttom{
+        gap: 30px;
+    }
+    
+    .buttom > img{
+        width: 230px;
+        height: 190px;
+    }
+    
+    .buttom span{
+        gap: 30px;
+    }
+    
+    
+    .buttom span img{
+        width: 100px;
+        height: 80px;
+    }
+
+
+    
+    #account{
+        padding: 0;
+    }
+    
+    
+    #account h1{
+        font-size: 40px;
+    }
+    
+    #account form{
+        width: 100%;
+        padding: 30px; 
+    }
+    
+    
+    #gallery{
+       
+        padding: 40px;
+        
+    }
+    
+    #gallery h1{
+        font-size: 40px;
+        
+    }
+    
+    #gallery article{
+        gap: 30px;
+    }
+
+    
+    #gallery article div{
+         gap: 20px;
+    }
+
+    
+    #gallery article div img{
+        width:100px;
+        height: 80px;
+        
+    }
+    
+    #contact{
+        padding: 30px;
+        gap: 50px;
+    }
+    
+    #contact h1{
+        font-size: 40px;
+        
+    }
+    
+    #contact p{
+        width: 100%;
+        padding: 40px;
+        
+    } 
+    
+    
+    footer p{
+        font-size: 10px;
+
+}
+
+}
