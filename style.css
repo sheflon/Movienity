@@ -24,6 +24,10 @@ header{
     background-image: url(banner-light.jpg);
     background-size: cover;
     background-position: center center;
+    animation: displaying-bg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: 2s;
 }
 
 header h3{
@@ -347,4 +351,29 @@ footer{
 
 footer p{
     font-size: 10px;
+}
+
+
+/* key frames for the animation */
+@keyframes displaying-bg{
+    0%{
+        background-image: url("banner1.jpg");
+    }
+
+
+    25%{
+        background-image: url("banner2.jpg");
+    }
+
+    50%{
+        background-image: url("banner3.jpg");
+    }
+
+    75%{
+        background-image: url("banner4.jpg");
+    }
+
+    100%{
+        background-image: url("banner5.png");
+    }
 }
